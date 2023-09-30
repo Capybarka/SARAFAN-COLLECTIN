@@ -168,7 +168,7 @@ section p:nth-child(2) {
 /* main section class="collecction-items" */
 .main-container {
     width: 1170px;
-    background-color: #ffffff;
+    background-color: #694646;
     margin: 0 auto;
     margin-top: 120px;
 }
@@ -182,37 +182,54 @@ h1 {
     display: block;
 }
 
-.collection-items{
+.collection-items {
     position: relative;
     width: 270px;
     height: 416px;
     margin-right: 26px;
 }
 
-.collection-items .collection-items-like{
+.collection-items .collection-items-like {
     position: absolute;
-    top:12px;
+    top: 12px;
     right: 12px;
 }
 
-.collecction-items-container1 div:last-child{
+.collecction-items-container1 div:last-child {
     margin-right: 0px;
 }
 
-.collecction-items-container1 .collection-items{
+.collecction-items-container1 .collection-items {
     display: inline-block;
 }
 
-.collecction-items-container1{
+.collecction-items-container1 {
     margin-bottom: 61px;
 }
 
-.collecction-items-img{
+.collecction-items-img {
     margin-bottom: 20px;
 }
 
-.collection-items a:last-child{
+.collection-items a:last-child {
     text-decoration: none;
-    color:#2D2D2D;
+    color: #2D2D2D;
     line-height: 25px;
+}
+
+.collecction-items-container2 {
+    display: flex;
+    height: 712px;
+    justify-content: space-between;
+}
+
+.collecction-items-container2>div {
+    flex: 1;
+    text-align: center;
+}
+
+.blaizer-a {
+    text-decoration: none;
+    color: #2D2D2D;
+    line-height: 19px;
 }
