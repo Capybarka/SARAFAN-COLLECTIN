@@ -58,6 +58,7 @@ body {
 
 .main-nav ul li a {
     text-decoration: none;
+    color: #2D2D2D;
 }
 
 .main-nav ul li:first-child,
@@ -119,11 +120,49 @@ body {
 }
 
 .header-user img:nth-child(2) {
-    width: 27px;
-    height: 27px;
-}
-
-.header-user img:last-child {
     width: 25px;
     height: 25px;
 }
+
+.header-user img:last-child {
+    width: 24px;
+    height: 24px;
+}
+
+.main-header {
+    position: relative;
+}
+
+.main-header section {
+    position: absolute;
+    bottom: 225px;
+    right: 256px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.main-header section a {
+    margin-top: 25px;
+    color: #2D2D2D;
+    display: inline-block;
+    width: 300px;
+    height: 56px;
+    background-color: #ffffff;
+    text-decoration: none;
+    line-height: 56px;
+    text-align: center;
+}
+
+section p:first-child {
+    font-size: 25px;
+    line-height: 28px;
+}
+
+section p:nth-child(2){
+    font-size: 63px;
+    line-height: 70px;
+    margin-top: 25px;
+}
+
+
+/* main section class="collecction-items" */
