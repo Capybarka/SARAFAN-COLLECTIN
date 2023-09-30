@@ -33,3 +33,97 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+body {
+    background-size: cover;
+}
+
+/* header */
+.main-header {
+    height: 954px;
+    background-image: url("/images/header/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 215px 0 215px;
+}
+
+.main-nav ul,
+.main-nav ul li {
+    display: inline;
+}
+
+.main-nav ul {
+    width: 416px;
+}
+
+.main-nav ul li a {
+    text-decoration: none;
+}
+
+.main-nav ul li:first-child,
+.main-nav ul li:nth-child(2),
+.main-nav ul li:nth-child(3) {
+    margin-right: 44px;
+}
+
+.main-nav ul li a:last-child {
+    margin-right: 0px;
+}
+
+.logo {
+    position: absolute;
+    right: 520px;
+}
+
+.main-nav {
+    width: 1175px;
+    height: 40px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.main-header div {
+    height: 40px;
+}
+
+.main-nav ul {
+    position: absolute;
+    top: 10px;
+}
+
+.main-nav input {
+    width: 200px;
+    background-color: transparent;
+    padding-left: 45px;
+    border: none;
+    border-bottom: 1px solid #6F6F6F;
+    position: absolute;
+    right: 205px;
+    top: 10px;
+}
+
+.header-user {
+    display: inline-block;
+    width: 135px;
+    height: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    right: 0px;
+}
+
+.header-user img:first-child {
+    width: 31px;
+    height: 31px;
+}
+
+.header-user img:nth-child(2) {
+    width: 27px;
+    height: 27px;
+}
+
+.header-user img:last-child {
+    width: 25px;
+    height: 25px;
+}
