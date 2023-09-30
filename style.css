@@ -33,10 +33,3 @@ img {
     max-width: 100%;
     height: auto;
 }
-
-/* header */
-header{
-    background: url("/images/header/background.jpg") center center no-repeat;
-    background-size: contain;
-    /* height: auto; */
-}
