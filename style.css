@@ -158,7 +158,7 @@ section p:first-child {
     line-height: 28px;
 }
 
-section p:nth-child(2){
+section p:nth-child(2) {
     font-size: 63px;
     line-height: 70px;
     margin-top: 25px;
@@ -166,3 +166,53 @@ section p:nth-child(2){
 
 
 /* main section class="collecction-items" */
+.main-container {
+    width: 1170px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+.collection-items img,
+.collection-items a {
+    display: block;
+}
+
+.collection-items{
+    position: relative;
+    width: 270px;
+    height: 416px;
+    margin-right: 26px;
+}
+
+.collection-items .collection-items-like{
+    position: absolute;
+    top:12px;
+    right: 12px;
+}
+
+.collecction-items-container1 div:last-child{
+    margin-right: 0px;
+}
+
+.collecction-items-container1 .collection-items{
+    display: inline-block;
+}
+
+.collecction-items-container1{
+    margin-bottom: 61px;
+}
+
+.collecction-items-img{
+    margin-bottom: 20px;
+}
+
+.collection-items a:last-child{
+    text-decoration: none;
+    color:#2D2D2D;
+    line-height: 25px;
+}
